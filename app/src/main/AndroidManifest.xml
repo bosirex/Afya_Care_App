@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mhutshow.AfyaCare">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".controller.MedicationReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".medicine.MedicineActivity"
+            android:exported="false" />
+        <activity android:name=".controller.MyCalendarDoctorActivity" />
+        <activity android:name=".controller.TestActivity" />
+        <activity android:name=".controller.AppointmentActivity" />
+        <activity android:name=".controller.SheetInfo" />
+        <activity android:name=".controller.PatientInfoActivity" />
+        <activity android:name=".controller.MedicalRecord" />
+        <activity android:name=".controller.ChatActivity" />
+        <activity android:name=".controller.PatientRequestPage" />
+        <activity android:name=".controller.DoctorHomeActivity" />
+        <activity android:name=".controller.EditProfileDoctorActivity" />
+        <activity android:name=".controller.ConfirmedAppointmentsActivity" />
+        <activity android:name=".controller.PatientAppointmentsActivity" />
+        <activity android:name=".controller.ProfilePatientActivity" />
+        <activity android:name=".controller.MyDoctorsAvtivity" />
+        <activity android:name=".controller.ProfileDoctorActivity" />
+        <activity android:name=".controller.EditProfilePatientActivity" />
+        <activity android:name=".controller.DoctorAppointmentActivity" />
+        <activity android:name=".controller.ActivityFile" />
+        <activity android:name=".controller.MyPatientsActivity" />
+        <activity android:name=".controller.SearchPatActivity" />
+        <activity android:name=".controller.FirstSigninActivity" />
+        <activity android:name=".controller.HomeActivity" />
+        <activity android:name=".medicine.addmedicine.AddMedicineActivity" />
+        <activity android:name=".alarm.ReminderActivity" />
+        <activity android:name=".report.MonthlyReportActivity" />
+        <activity android:name=".controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

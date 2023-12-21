@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "29997587069",
+    "firebase_url": "https://afya-care-app-7aa29-default-rtdb.firebaseio.com",
+    "project_id": "afya-care-app-7aa29",
+    "storage_bucket": "afya-care-app-7aa29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29997587069:android:f365b4177ef22e9877ef14",
+        "android_client_info": {
+          "package_name": "com.mhutshow.AfyaCare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29997587069-aurc1ll642ii3mitun8ahoohvpg2uv4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5LyNhqT769U8bLoR1F8YqsdNaWNQ5T_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29997587069-aurc1ll642ii3mitun8ahoohvpg2uv4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
